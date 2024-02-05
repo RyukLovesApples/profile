@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+body {
+  background-color: rgba(242, 250, 215, 0.409);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(22, 17, 41, 0.757);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  line-height: 25px;
+  text-decoration: underline;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+h2, h3 {
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover > img {
+  scale: 1.2;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* .container {
+
+} */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFE4C9;
+  margin: 20px 40px;
+  padding-bottom: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 10px 25%;
+}
+
+#profile-pic {
+  border: 20px, black;
+  border-style: solid;
+  border-radius: 30%;
+  padding: 2px;
+  margin-top: 10px;
+  background-color: aliceblue;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li > a > img{
+  width: 40px;
+}
+
+button {
+  background-color: #BED1CF;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 2px;
+  font-size: 15px;
+}
+
+h1 {
+  background-color: #E0CCBE;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px black solid;
+}
+
+@media (max-width: 540px) {
+
+  h1 {
+    color: aqua;
+  }
+
+  button {
+    background-color: black;
+    color: aliceblue;
+  }
+}
