@@ -9,6 +9,10 @@ body {
   line-height: 20px;
 }
 
+p {
+  text-align: center;
+}
+
 h1, h2, h3 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
@@ -16,6 +20,7 @@ h1, h2, h3 {
   text-decoration: underline;
   font-weight: lighter;
   margin: 10px;
+  text-align: center;
 }
 
 h2, h3 {
@@ -49,7 +54,8 @@ body {
   padding-bottom: 20px;
   border: 1px solid lightgrey;
   border-radius: 10px;
-  margin: 10px 25%;
+  margin: 14px 25%;
+  box-shadow: 2px 2px 3px grey;
 }
 
 #profile-pic {
@@ -97,10 +103,6 @@ h1 {
 }
 
 @media (max-width: 540px) {
-
-  h1 {
-    color: aqua;
-  }
 
   button {
     background-color: black;
